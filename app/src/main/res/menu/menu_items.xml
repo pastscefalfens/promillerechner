@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="@string/info_titel"
+        />
+
+
+    <item
+        android:id="@+id/berechnen"
+        android:icon="@drawable/ic_local_drink_black_24dp"
+        android:title="@string/berechnen_titel"
+        />
+
+    <item
+        android:id="@+id/verlauf"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="@string/verlauf_titel"
+        />
+
+
+
+</menu>
