@@ -56,7 +56,7 @@
     Werte stammen
     von der Website www.kenn-dein-limit.de und basieren auf den Formeln von Widmark und Watson.
         </string>
-    <string name="info_fragen"></string>
+    <string name="info_fragen">Bei Fragen kontaktieren Sie uns bitte gerne!</string>
     <string name="info_email">Email: contact@psteffens.com</string>
     <string name="info_button_email">Email</string>
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/info">
+
+    <fragment
+        android:id="@+id/info"
+        android:name="com.example.promillerechner_jr_ps_r06.InfoFragment"
+        android:label="@string/info_titel_voll"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/berechnen"
+        android:name="com.example.promillerechner_jr_ps_r06.BerechnenFragment"
+        android:label="@string/berechnen_titel_voll"
+        tools:layout="@layout/fragment_berechnen" />
+</navigation>
