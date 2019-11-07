@@ -28,7 +28,7 @@
     <string name="berechnen_toast_dbeintrag">Datenbankeintrag erstellt.</string>
     <string name="berechnen_toast_err_gewicht">Fehler: falsches Gewicht eingegeben</string>
     <string name="berechnen_toast_err_groesse">Fehler: falsche Körpergröße eingegeben</string>
-    
+
     <string name="verlauf_titel">Verlauf</string>
     <string name="verlauf_titel_voll">Vergangene Berechnungen</string>
     <string name="verlauf_promille">Promillewert</string>
@@ -46,13 +46,21 @@
         Zudem können über den Verlauf bisherige durchgeführte Rechnungen eingesehen und gelöscht werden.
         </string>
     <string name="info_formel">Blutalkoholwert = Alkoholgehalt (in g) * 0,8 / Anteil der Körperflüssigkeit</string>
-    <string name="info_beschreibung_formel">Diese Formel zur Berechnung bezieht sich auf die Alkoholmenge in Gramm,
-        Körpergewicht und Größe und daraus resultierend den Anteil an Körperflüssigkeit. Dieser berechnet sich bei
-        Frauen durch: -2,097 + 0,1069 * Größe (cm) + 0,2466 * Gewicht (kg). Bei Männern berechnet sich der
-        Anteil an Körperflüssigkeit durch: -1,553 + 0,1074 * Größe (cm) + 0,3362 * Gewicht (kg). Diese Werte stammen
-        von der Website www.kenn-dein-limit.de und basieren auf den Formeln von Widmark und Watson.<tring>
+    <string name="info_beschreibung_formel">Diese Formel zur Berechnung bezieht sich auf die
+    Alkoholmenge in Gramm,
+    Körpergewicht und Größe und daraus resultierend den Anteil an Körperflüssigkeit. Dieser
+    berechnet sich bei
+    Frauen durch: -2,097 + 0,1069 * Größe (cm) + 0,2466 * Gewicht (kg). Bei Männern berechnet sich
+    der
+    Anteil an Körperflüssigkeit durch: -1,553 + 0,1074 * Größe (cm) + 0,3362 * Gewicht (kg). Diese
+    Werte stammen
+    von der Website www.kenn-dein-limit.de und basieren auf den Formeln von Widmark und Watson.
+        </string>
     <string name="info_fragen"></string>
     <string name="info_email">Email: contact@psteffens.com</string>
     <string name="info_button_email">Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
