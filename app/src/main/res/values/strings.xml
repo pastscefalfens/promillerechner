@@ -37,8 +37,10 @@
 
     <string name="info_titel">Info</string>
     <string name="info_titel_voll">Über Promillerechner</string>
-    <string name="info_version">Version</string>
-    <string name="info_stand">Stand</string>
+
+    <string name="info_version">Version 1.0</string>
+    <string name="info_stand">Stand 17.11.2019</string>
+
     <string name="info_herausgeber">Herausgeber: Janik Rapp, Pascal Steffens</string>
     <string name="info_pj_beschreibung">Portfolioprojekt zur Vorlesung "Mobile Applikationen"</string>
     <string name="info_dhbw">Duale Hochschule Baden-Württemberg Karlsruhe Fakultät Wirtschaft, Kurs WWI18B4</string>
@@ -73,7 +75,7 @@
         <item>Spirituose</item>
     </string-array>
 
-    <float-array name="spinner_alkoholgehalt_volproz">
+    <string-array name="spinner_alkoholgehalt_volproz">
         <item>2.5</item>
         <item>5.0</item>
         <item>7.5</item>
@@ -82,9 +84,9 @@
         <item>25.0</item>
         <item>30.0</item>
         <item>45.0</item>
-    </float-array>
+    </string-array>
 
-    <float-array name="spinner_getraenkegroessen">
+    <string-array name="spinner_getraenkegroessen">
         <item>0.02</item>
         <item>0.04</item>
         <item>0.1</item>
@@ -94,6 +96,6 @@
         <item>0.5</item>
         <item>0.75</item>
         <item>1.0</item>
-    </float-array>
+    </string-array>
 
 </resources>

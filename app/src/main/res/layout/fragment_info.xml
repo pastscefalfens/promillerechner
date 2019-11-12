@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/info_stand"
         android:text="@string/info_herausgeber"
-        android:paddingBottom="8dp"
+        android:paddingBottom="16dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"/>
 
@@ -56,9 +56,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/info_pj_beschreibung"
+        android:text="@string/info_dhbw"
+        android:paddingBottom="16dp"
+
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/beschreibung_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/info_dhbw"
         android:text="@string/info_beschreibung_app"
         android:paddingBottom="8dp"
-        android:paddingTop="8dp"
+        android:paddingTop="16dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"/>
 

@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BerechnenFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BerechnenFragment"
+    tools:ignore="ExtraText">
 
-    <!-- TODO: Update blank fragment layout -->
+    //nachfolgende TextViews werden linear untereinander dargestellt
+
     <TextView
+        android:id="@+id/berechnen_firsttext"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/berechnen_akt_wert"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
 
-</FrameLayout>
+    <Button
+        android:id="@+id/calcbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALC"
+        app:layout_constraintTop_toBottomOf="@+id/berechnen_firsttext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

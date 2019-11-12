@@ -6,11 +6,12 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import com.example.promillerechner_jr_ps_r06.dao.BerechnungDao;
 import com.example.promillerechner_jr_ps_r06.models.Berechnung;
 
 
 @Database(entities = Berechnung.class,version = 1, exportSchema = false)
-public class BerechnungRoomDatabase extends RoomDatabase {
+public abstract class BerechnungRoomDatabase extends RoomDatabase {
     public abstract BerechnungDao berechnungDao();
     private static BerechnungRoomDatabase INSTANCE;
 

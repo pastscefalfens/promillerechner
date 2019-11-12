@@ -21,7 +21,7 @@ public interface BerechnungDao {
     @Delete
     void deletePancake(Berechnung... berechnung);
 
-    @Query("SELECT * FROM berechnungen ORDER BY id DESC")
+    @Query("SELECT * FROM berechnungen ORDER BY berechnung_id DESC")
     List<Berechnung> getAll();
 }
 
