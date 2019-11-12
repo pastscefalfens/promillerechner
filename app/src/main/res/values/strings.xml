@@ -1,6 +1,7 @@
 <resources>
 
     <string name="app_name">Promillerechner_JR_PS_R06</string>
+    <string name="app_name_voll">Promillerechner R06</string>
 
     <string name="maennlich">Männlich</string>
     <string name="weiblich">Weiblich</string>
@@ -60,7 +61,39 @@
     <string name="info_email">Email: contact@psteffens.com</string>
     <string name="info_button_email">Email</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinner_alkoholsorten">
+        <item>Radler</item>
+        <item>Bier</item>
+        <item>Weinschorle</item>
+        <item>Wein</item>
+        <item>Cocktail</item>
+        <item>Cocktail stark</item>
+        <item>Likör</item>
+        <item>Spirituose</item>
+    </string-array>
+
+    <float-array name="spinner_alkoholgehalt_volproz">
+        <item>2.5</item>
+        <item>5.0</item>
+        <item>7.5</item>
+        <item>11.0</item>
+        <item>15.0</item>
+        <item>25.0</item>
+        <item>30.0</item>
+        <item>45.0</item>
+    </float-array>
+
+    <float-array name="spinner_getraenkegroessen">
+        <item>0.02</item>
+        <item>0.04</item>
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.33</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+    </float-array>
 
 </resources>

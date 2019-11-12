@@ -4,23 +4,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".InfoFragment">
+    tools:context=".InfoFragment"
+    tools:ignore="ExtraText">
 
-    <!-- TODO: Update blank fragment layout -->
+    //nachfolgende TextViews werden linear untereinander dargestellt
+
     <TextView
-        android:id="@+id/info_firsttexr"
+        android:id="@+id/info_version"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/info_beschreibung_app"
+        android:text="@string/info_version"
         android:paddingBottom="8dp"
-        android:paddingTop="8dp"/>
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
 
     <TextView
-        android:id="@+id/info_secondtext"
+        android:id="@+id/info_stand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/info_firsttexr"
-        android:text="@string/info_beschreibung_app" />
+        app:layout_constraintTop_toBottomOf="@+id/info_version"
+        android:text="@string/info_stand"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/info_herausgeber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/info_stand"
+        android:text="@string/info_herausgeber"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/info_pj_beschreibung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/info_herausgeber"
+        android:text="@string/info_pj_beschreibung"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/info_dhbw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/info_pj_beschreibung"
+        android:text="@string/info_beschreibung_app"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
